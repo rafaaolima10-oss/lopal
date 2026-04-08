@@ -7,6 +7,15 @@ function conjunto(){
     letras.add("e");
     letras.add("f");
 
+    letras.delete("c");
+    console.log(letras);
+
+    for (const x of letras.values()){
+        console.log(x);
+    }
+
+    
+
 console.log(letras.size);
 
 }
